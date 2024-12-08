@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { HireMe } from "../components/HireMe";
 import { Tools } from "../components/Tools";
+import {Card} from "../components/Card.tsx";
 
 export function Home() {
     return (
@@ -61,9 +62,12 @@ export function Home() {
 
                 <div className="hidden md:flex items-center justify-center w-full md:w-1/2 p-4">
                     <div className="avatar">
-                        <div className="w-72 rounded-full">
-                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQEUIBZ6r4Kvjg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1698403518737?e=1731542400&v=beta&t=STUsvIO76crodgxGVzqWP43N9Z4_YIktRivTKKjOUVY" />
-                        </div>
+                        <Card image={"src/assets/profile.png"}
+                              name={"profile-img"}
+                              imageClassName={"w-72 rounded-full"}
+                              titleClassName={"font-bold"}
+                              descriptionClassName={"card-body"}
+                        />
                     </div>
                 </div>
             </section>

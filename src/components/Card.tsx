@@ -13,7 +13,7 @@ export function Card(props: CardProps) {
         <div className={props.className}>
             <div className="avatar">
                 <div className={props.imageClassName}>
-                    <img src={props.image} />
+                    <img alt="tool-image" src={props.image} />
                 </div>
             </div>
             <h4 className={props.titleClassName}>

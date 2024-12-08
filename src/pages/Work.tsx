@@ -17,8 +17,11 @@ export function Work() {
                         </svg>
                     </div>
                     <div className="timeline-start mb-10 md:text-end">
-                        <time className="font-mono italic">07/2023 - Present</time>
-                        <div className="text-lg text-purple-600">HAPPISO</div>
+                        <time className="font-mono italic">07/2023 - 11/2024</time>
+                        <div className="flex justify-end text-lg text-purple-600">
+                            <img className="w-8 h-8 mr-2" alt="baback" src="src/assets/work/happiso.png"/>
+                            <p>HAPPISO</p>
+                        </div>
                         <div>Full Stack Developer - CDI</div>
                         Metz, France
                     </div>
@@ -40,7 +43,10 @@ export function Work() {
                     </div>
                     <div className="timeline-end mb-10 md:text-start">
                         <time className="font-mono italic">01/2023 - 07/2023</time>
-                        <div className="text-lg text-purple-600">BABACK</div>
+                        <div className="flex items-center text-lg text-purple-600">
+                            <img className="w-8 h-8 mr-2" alt="baback" src="src/assets/work/baback.png"/>
+                            <p>BABACK</p>
+                        </div>
                         <div>Full Stack Developer - Internship</div>
                         Strasbourg, France
                     </div>
@@ -62,14 +68,17 @@ export function Work() {
                     </div>
                     <div className="timeline-start mb-10 md:text-end">
                         <time className="font-mono italic">07/2022 - 09/2022</time>
-                        <div className="text-lg text-purple-600">ESPRIT-TECH</div>
+                        <div className="flex justify-end text-lg text-purple-600">
+                            <img className="w-8 h-8 mr-2" alt="baback" src="src/assets/work/esprit.png"/>
+                            <p>ESPRIT-TECH</p>
+                        </div>
                         <div>Full Stack Developer - Internship</div>
                         Ariana, Tunisie
                     </div>
-                    <hr />
+                    <hr/>
                 </li>
                 <li>
-                    <hr />
+                    <hr/>
                     <div className="timeline-middle">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +93,9 @@ export function Work() {
                     </div>
                     <div className="timeline-end mb-10 md:text-start">
                         <time className="font-mono italic">02/2022 - 05/2022</time>
-                        <div className="text-lg text-purple-600">OBY-DIGITAL</div>
+                        <div className="flex items-center text-lg text-purple-600">
+                            <p>OBY-DIGITAL</p>
+                        </div>
                         <div>Web Developer - Freelance</div>
                         Paris, France (remote)
                     </div>
@@ -106,14 +117,17 @@ export function Work() {
                     </div>
                     <div className="timeline-start mb-10 md:text-end">
                         <time className="font-mono italic">06/2021 - 09/2021</time>
-                        <div className="text-lg text-purple-600">DEV NULL PRODUCTIONS</div>
+                        <div className="flex justify-end text-lg text-purple-600">
+                            <img className="w-8 h-8 mr-2" alt="baback" src="src/assets/work/devNull.png"/>
+                            <p>DEV NULL PRODUCTIONS</p>
+                        </div>
                         <div>Full Stack Developer - Internship</div>
                         New York, USA (remote)
                     </div>
-                    <hr />
+                    <hr/>
                 </li>
                 <li>
-                    <hr />
+                    <hr/>
                     <div className="timeline-middle">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +142,10 @@ export function Work() {
                     </div>
                     <div className="timeline-end mb-10 md:text-start">
                         <time className="font-mono italic">02/2020 - 06/2020</time>
-                        <div className="text-lg text-purple-600">UNFRAUDED</div>
+                        <div className="flex items-center text-lg text-purple-600">
+                            <img className="w-8 h-8 mr-2" alt="baback" src="src/assets/work/unfrauded.png"/>
+                            <p>UNFRAUDED</p>
+                        </div>
                         <div>Full Stack Developer - Internship</div>
                         Ariana, Tunisie
                     </div>
@@ -150,14 +167,17 @@ export function Work() {
                     </div>
                     <div className="timeline-start mb-10 md:text-end">
                         <time className="font-mono italic">06/2019 - 07/2019</time>
-                        <div className="text-lg text-purple-600">Coroplast Fritz Müller GmbH & Co. KG</div>
+                        <div className="flex justify-end text-lg text-purple-600">
+                            <img className="w-8 h-8 mr-2" alt="baback" src="src/assets/work/coroplaste.png"/>
+                            <p>Coroplast Fritz Müller GmbH & Co. KG</p>
+                        </div>
                         <div>IT Technician - Internshipp</div>
                         Hammamet, Nabeul
                     </div>
-                    <hr />
+                    <hr/>
                 </li>
                 <li>
-                    <hr />
+                    <hr/>
                     <div className="timeline-middle">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -172,7 +192,10 @@ export function Work() {
                     </div>
                     <div className="timeline-end mb-10 md:text-start">
                         <time className="font-mono italic">06/2018 - 07/2018</time>
-                        <div className="text-lg text-purple-600">TUNISAIR</div>
+                        <div className="flex items-center text-lg text-purple-600">
+                            <img className="w-8 h-8 mr-2" alt="baback" src="src/assets/work/tunisair.png"/>
+                            TUNISAIR
+                        </div>
                         <div>IT Technician - Internship</div>
                         Ariana, Tunisie
                     </div>
